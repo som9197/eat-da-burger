@@ -1,2 +1,4 @@
-INSERT INTO burgers (burger_name, devoured, myDate) VALUES 
-('Burger', true, '2018-05-15 12:00:00'), 
+USE `burgers_db`;
+
+INSERT INTO `burgers` (burger_name, devoured, date) VALUES ('Cheese Burger', false, CURRENT_TIMESTAMP);
+
